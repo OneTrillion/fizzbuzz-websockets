@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "checkJs": false,
+    "module": "CommonJS",
+    "target": "ES2022",
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "lib": [
+      "ES2022"
+    ],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "rootDir": "./src",
+    "outDir": "./dist_server",
+    "strictNullChecks": true
+  },
+  "include": [
+    "./src/server",
+  ],
+  "exclude": [
+    "./dist",
+    "./dist_server",
+    "./dist_client"
+  ]
+}
